@@ -71,4 +71,5 @@ SELECT * FROM movie_summary;
 
 -- Create index for optimization
 CREATE INDEX IF NOT EXISTS idx_movie_id
+
 ON ratings(movie_id);
